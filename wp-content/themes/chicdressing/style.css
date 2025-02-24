@@ -1,0 +1,457 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+/*    Intégration des différentes polices */
+/*   Kalam */
+@font-face {
+    font-family: 'Kalam';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Kalam-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Kalam-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Kalam-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*    Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/PlayfairDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+  .playfair-display-400 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .playfair-display-500 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .playfair-display-600 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .playfair-display-700 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .playfair-display-800 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .playfair-display-900 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  
+/*    Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+  
+  .open-sans-300 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .open-sans-400 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .open-sans-500 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .open-sans-600 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .open-sans-700 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .open-sans-800 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+/*    Rokkitt*/
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('/wp-content/themes/chicdressing/assets/fonts/Rokkitt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Rokkitt-100 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.Rokkitt_200 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.Rokkitt-300 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .Rokkitt-400 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .Rokkitt-500 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .Rokkitt-600 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .Rokkitt-700 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .Rokkitt-800 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .Rokkitt-900 {
+    font-family: '.Rokkitt', serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+/*  contraste */
+.slider-content {
+  font-size: 14px;
+}
+
+.post-content  {
+  color:#000000;
+  font-size: 14px;
+}
+
+/*  Navigateur */
+ul li.current-menu-item a {
+  color: #9d4c64 !important;
+}
+
+ul li a:hover {
+  color: #ca9b52 !important;
+}
+
+/*  Button read more*/
+.read-more a {
+  color:#9d4c64;
+}
+
+.read-more a:hover {
+  color:#ca9b52 !important;
+}
+
+/*  Button boutique */
+
+.woocommerce ul.products li.product .button {
+  color: #9d4c64 !important;
+}
+
+.woocommerce ul.products li.product .button:hover {
+  color: #ca9b52 !important;
+}
+
+/*  Catégorie posts*/
+.post-categories a {
+  color: #9d4c64!important;
+  font-size: 14px !important;
+}
+
+.post-date {
+  color:#000000 !important;
+  font-size: 14px !important;
+}
+
+/*  bande latérale / */
+
+.rpwwt-post-categories {
+  color: #5a2938 !important;
+}
+
+.wysija-paragraph {
+  color:#000000 !important;
+}
+
+.site-description {
+  padding-top: 20px;
+}
+
+.woocommerce ul.products li.product a img  {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+
+}
+/*    CSS */
+
+
+
+
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
